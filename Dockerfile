@@ -1,4 +1,4 @@
-FROM jngong/ubuntu_fsl
+FROM daocloud.io/jngong/ubuntu_fsl
 MAINTAINER Jinnan Gong <gongjinnan1989@gmail.com>
 RUN apt-get update && apt-get install -y python-dev python-setuptools python-numpy python-scipy zlib1g-dev python-matplotlib python-nose fsl
 RUN easy_install pip
